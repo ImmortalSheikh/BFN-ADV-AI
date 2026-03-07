@@ -1,0 +1,39 @@
+Test Accuracy  : 99.00%
+Precision      : 99.02%
+Recall         : 99.00%
+F1 Score       : 99.00%
+
+                      precision    recall  f1-score   support
+
+      Apple__Healthy       1.00      1.00      1.00       377
+       Apple__Rotten       1.00      0.99      0.99       432
+     Banana__Healthy       1.00      1.00      1.00       310
+      Banana__Rotten       1.00      1.00      1.00       407
+ Bellpepper__Healthy       0.99      1.00      0.99        97
+  Bellpepper__Rotten       0.99      0.89      0.93        97
+     Carrot__Healthy       0.94      0.96      0.95        84
+      Carrot__Rotten       0.91      0.91      0.91        76
+   Cucumber__Healthy       1.00      1.00      1.00        96
+    Cucumber__Rotten       1.00      0.99      0.99        93
+      Grape__Healthy       0.95      1.00      0.97        35
+       Grape__Rotten       1.00      0.94      0.97        31
+      Guava__Healthy       0.97      1.00      0.99        34
+       Guava__Rotten       1.00      1.00      1.00        31
+     Jujube__Healthy       1.00      0.97      0.98        31
+      Jujube__Rotten       1.00      1.00      1.00        30
+      Mango__Healthy       1.00      1.00      1.00       274
+       Mango__Rotten       0.99      0.99      0.99       340
+     Orange__Healthy       1.00      1.00      1.00       306
+      Orange__Rotten       1.00      0.99      1.00       350
+Pomegranate__Healthy       1.00      0.97      0.99        35
+ Pomegranate__Rotten       0.97      1.00      0.99        34
+     Potato__Healthy       0.98      0.96      0.97        90
+      Potato__Rotten       0.91      0.97      0.94        74
+ Strawberry__Healthy       1.00      1.00      1.00       228
+  Strawberry__Rotten       1.00      1.00      1.00       245
+     Tomato__Healthy       0.97      1.00      0.99        78
+      Tomato__Rotten       0.96      0.99      0.98        80
+
+            accuracy                           0.99      4395
+           macro avg       0.98      0.98      0.98      4395
+        weighted avg       0.99      0.99      0.99      4395

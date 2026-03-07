@@ -1,0 +1,56 @@
+# ===========================
+# DATASET & LARGE FILES
+# ===========================
+Task2_Quality_Classification/dataset/
+Task2_Quality_Classification/saved_model.pth
+*.pth
+*.h5
+*.pkl
+*.pt
+
+# ===========================
+# PYTHON
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+env/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# ===========================
+# JUPYTER NOTEBOOKS
+# ===========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===========================
+# VS CODE
+# ===========================
+.vscode/
+*.code-workspace
+
+# ===========================
+# WINDOWS
+# ===========================
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ===========================
+# LOGS & OUTPUTS
+# ===========================
+*.log
+logs/
+
+# ===========================
+# MISC
+# ===========================
+.DS_Store
+*.swp
+*.swo

@@ -3,6 +3,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from tqdm import tqdm
+
 from preprocess import load_data
 from model import build_model
 
@@ -50,6 +51,7 @@ def validate(model, loader, criterion, device):
         loop = tqdm(loader, desc="Validating", leave=False)
         for images, labels in loop:
             images, labels = images.to(device), labels.to(device)
+
             outputs = model(images)
             loss = criterion(outputs, labels)
 
@@ -74,20 +76,32 @@ def train():
 
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=LEARNING_RATE)
+    optimizer = optim.Adam(
+        filter(lambda p: p.requires_grad, model.parameters()),
+        lr=LEARNING_RATE
+    )
 
-    # Learning rate scheduler - reduces LR when val loss plateaus
-    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', patience=3, factor=0.5)
+    # Learning rate scheduler
+    scheduler = optim.lr_scheduler.ReduceLROnPlateau(
+        optimizer,
+        mode="min",
+        patience=3,
+        factor=0.5
+    )
 
     best_val_acc = 0.0
 
-    print("\n Starting Training...\n")
+    print("\nStarting Training...\n")
 
     for epoch in range(NUM_EPOCHS):
-        print(f"Epoch [{epoch+1}/{NUM_EPOCHS}]")
+        print(f"Epoch [{epoch + 1}/{NUM_EPOCHS}]")
 
-        train_loss, train_acc = train_one_epoch(model, train_loader, criterion, optimizer, device)
-        val_loss, val_acc = validate(model, val_loader, criterion, device)
+        train_loss, train_acc = train_one_epoch(
+            model, train_loader, criterion, optimizer, device
+        )
+        val_loss, val_acc = validate(
+            model, val_loader, criterion, device
+        )
 
         scheduler.step(val_loss)
 
@@ -97,20 +111,23 @@ def train():
         # Save best model
         if val_acc > best_val_acc:
             best_val_acc = val_acc
-            torch.save({
-                'epoch': epoch,
-                'model_state_dict': model.state_dict(),
-                'optimizer_state_dict': optimizer.state_dict(),
-                'val_acc': val_acc,
-                'class_names': class_names,
-                'num_classes': num_classes
-            }, SAVE_PATH)
-            print(f"  ✅ Best model saved! Val Acc: {val_acc:.2f}%")
+            torch.save(
+                {
+                    "epoch": epoch,
+                    "model_state_dict": model.state_dict(),
+                    "optimizer_state_dict": optimizer.state_dict(),
+                    "val_acc": val_acc,
+                    "class_names": class_names,
+                    "num_classes": num_classes,
+                },
+                SAVE_PATH,
+            )
+            print(f"  Best model saved! Val Acc: {val_acc:.2f}%")
 
         print()
 
-    print(f"\n Training Complete! Best Validation Accuracy: {best_val_acc:.2f}%")
-    print(f" Model saved to: {SAVE_PATH}")
+    print(f"\nTraining Complete! Best Validation Accuracy: {best_val_acc:.2f}%")
+    print(f"Model saved to: {SAVE_PATH}")
 
 
 if __name__ == "__main__":

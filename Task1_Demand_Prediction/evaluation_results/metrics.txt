@@ -1,0 +1,15 @@
+Test Accuracy      : 87.18%
+Precision          : 87.96%
+Recall             : 87.18%
+F1 Score           : 86.26%
+ROC-AUC Score      : 0.8032
+5-Fold CV Accuracy : 87.18% ± 4.05%
+
+              precision    recall  f1-score   support
+
+  No Reorder       0.86      0.98      0.92        55
+Will Reorder       0.93      0.61      0.74        23
+
+    accuracy                           0.87        78
+   macro avg       0.90      0.80      0.83        78
+weighted avg       0.88      0.87      0.86        78

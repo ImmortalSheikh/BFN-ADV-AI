@@ -1,0 +1,35 @@
+{
+  "model_type": "RandomForestClassifier",
+  "accuracy": 87.18,
+  "cv_accuracy_mean": 87.18,
+  "cv_accuracy_std": 4.05,
+  "trained_on": "2026-03-09",
+  "train_samples": 312,
+  "test_samples": 78,
+  "feature_names": [
+    "order_count",
+    "days_since_last",
+    "avg_quantity",
+    "order_frequency",
+    "week_of_year",
+    "category_encoded"
+  ],
+  "feature_importances": {
+    "Order Count": 29.78,
+    "Days Since Last": 22.21,
+    "Avg Quantity": 10.4,
+    "Order Frequency": 34.17,
+    "Week of Year": 0.0,
+    "Category": 3.44
+  },
+  "explainability": {
+    "order_count": "How many times the customer ordered this product",
+    "days_since_last": "Days since the customer last ordered this product",
+    "avg_quantity": "Average quantity the customer orders each time",
+    "order_frequency": "How often this product appears in the customer orders",
+    "week_of_year": "Seasonal factor based on time of year",
+    "category_encoded": "Product category (vegetables, fruit, dairy, bakery)"
+  },
+  "fairness_note": "Suggestions are based solely on individual customer purchase history. No producer-level features are used, preventing producer bias.",
+  "monitoring_strategy": "Customer override events are logged. If override rate exceeds 30%, model retraining is recommended. Accuracy is recalculated monthly against actual orders placed."
+}

@@ -1,3 +1,4 @@
+import os
 import torch
 import torch.nn.functional as F
 from torchvision import transforms
@@ -5,7 +6,8 @@ from PIL import Image
 from model import build_model
 
 # Paths
-MODEL_PATH = "saved_model.pth"
+BASE_DIR = os.path.dirname(__file__)
+MODEL_PATH = os.path.join(BASE_DIR, "model_registry", "saved_model.pth")
 IMG_SIZE = 224
 
 # Image transform for inference
@@ -51,7 +53,6 @@ def assign_grade(color, size, ripeness):
     Grade A: Color >= 75%, Size >= 80%, Ripeness >= 70%
     Grade B: Color >= 65%, Size >= 70%, Ripeness >= 60%
     Grade C: Below Grade B thresholds
-    As specified in the case study.
     """
     if color >= 75 and size >= 80 and ripeness >= 70:
         return "A"
@@ -65,7 +66,7 @@ def get_inventory_action(grade):
     """Recommend inventory action based on grade."""
     actions = {
         "A": "✅ Stock at full price — premium quality",
-        "B": "⚠️  Apply 15-20% discount — good but not premium",
+        "B": "⚠️ Apply 15-20% discount — good but not premium",
         "C": "❌ Remove from sale or apply heavy discount (>40%)"
     }
     return actions[grade]
@@ -84,13 +85,11 @@ def predict_image(image_path, model, class_names, device):
     confidence = confidence.item()
     predicted_class = class_names[predicted_idx.item()]
 
-    # Parse class name e.g. 'Apple__Healthy' → produce, condition
     parts = predicted_class.split("__")
     produce = parts[0]
     condition = parts[1] if len(parts) > 1 else "Unknown"
     is_healthy = condition.lower() == "healthy"
 
-    # Get quality scores and grade
     color, size, ripeness = simulate_quality_scores(confidence, is_healthy)
     grade = assign_grade(color, size, ripeness)
     action = get_inventory_action(grade)
@@ -110,28 +109,29 @@ def predict_image(image_path, model, class_names, device):
 
 
 def print_result(result):
-    print("\n" + "="*50)
+    print("\n" + "=" * 50)
     print(f"  Produce      : {result['produce']}")
     print(f"  Condition    : {result['condition']}")
     print(f"  Confidence   : {result['confidence']}%")
-    print("-"*50)
+    print("-" * 50)
     print(f"  Color Score  : {result['color_score']}%")
     print(f"  Size Score   : {result['size_score']}%")
     print(f"  Ripeness     : {result['ripeness_score']}%")
-    print("-"*50)
+    print("-" * 50)
     print(f"  Grade        : {result['grade']}")
     print(f"  Action       : {result['inventory_action']}")
-    print("="*50 + "\n")
+    print("=" * 50 + "\n")
 
 
 if __name__ == "__main__":
-    import sys
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model, class_names = load_trained_model(device)
 
-    # Test with a sample image from the dataset
-    import os
-    sample_dir = os.path.join("dataset", "Fruit And Vegetable Diseases Dataset", "Apple__Healthy")
+    sample_dir = os.path.join(
+        "dataset",
+        "Fruit And Vegetable Diseases Dataset",
+        "Apple__Healthy"
+    )
     sample_image = os.path.join(sample_dir, os.listdir(sample_dir)[0])
 
     print(f"Testing with: {sample_image}")

@@ -119,9 +119,45 @@ plt.axis("off")
 
 plt.tight_layout()
 plt.savefig(figure_out, dpi=300, bbox_inches="tight")
+
+# -----------------------------
+# XAI — Decision Explanation
+# -----------------------------
+from grading import simulate_quality_scores, assign_grade, get_inventory_action
+import torch.nn.functional as F
+
+parts = pred_label.split("__")
+produce = parts[0]
+is_healthy = parts[1].lower() == "healthy" if len(parts) > 1 else False
+
+with torch.no_grad():
+    output = model(input_tensor)
+    probs = F.softmax(output, dim=1)
+    confidence = probs.max().item()
+
+color, size, ripeness = simulate_quality_scores(confidence, is_healthy)
+grade = assign_grade(color, size, ripeness)
+action = get_inventory_action(grade)
+
+print("\n" + "=" * 50)
+print("  XAI — Decision Explanation")
+print("=" * 50)
+print(f"  Produce       : {produce}")
+print(f"  Condition     : {'Healthy' if is_healthy else 'Rotten'}")
+print(f"  Confidence    : {round(confidence * 100, 2)}%")
+print(f"  Color Score   : {color}%")
+print(f"  Size Score    : {size}%")
+print(f"  Ripeness      : {ripeness}%")
+print(f"  Grade         : {grade}")
+print(f"  Recommendation: {action}")
+print("=" * 50)
+print("  Grad-CAM highlights the regions that most")
+print("  influenced this prediction (red = high importance)")
+print("=" * 50)
+
 plt.show()
 
-print(f"Predicted class index: {pred_class}")
+print(f"\nPredicted class index: {pred_class}")
 print(f"Predicted label: {pred_label}")
 print("Saved files:")
 print(f" - {original_out}")

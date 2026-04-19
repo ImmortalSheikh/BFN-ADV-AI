@@ -13,7 +13,7 @@ from gradcam import GradCAM
 # Settings
 # -----------------------------
 BASE_DIR = os.path.dirname(__file__)
-MODEL_PATH = os.path.join(BASE_DIR, "saved_model.pth")
+MODEL_PATH = os.path.join(BASE_DIR, "model_registry", "saved_model.pth")
 IMAGE_PATH = os.path.join(BASE_DIR, "rotten-apple.png")
 
 # Folder to save Grad-CAM outputs

@@ -10,7 +10,7 @@ from tqdm import tqdm
 from preprocess import load_data
 from model import build_model
 
-SAVE_PATH = "saved_model.pth"
+SAVE_PATH = os.path.join(os.path.dirname(__file__), "model_registry", "saved_model.pth")
 RESULTS_DIR = "evaluation_results"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 

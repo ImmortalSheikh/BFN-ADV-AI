@@ -7,7 +7,7 @@ Task2_Quality_Classification/saved_model.pth
 *.h5
 *.pkl
 *.pt
-
+database/*.db
 # ===========================
 # PYTHON
 # ===========================

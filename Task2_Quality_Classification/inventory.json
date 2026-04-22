@@ -1,23 +1,23 @@
 {
     "Apple": {
-        "grade_A": 3,
+        "grade_A": 6,
         "grade_B": 0,
-        "grade_C": 3,
-        "total_inspected": 6,
-        "last_updated": "2026-03-07 22:17:09"
+        "grade_C": 6,
+        "total_inspected": 12,
+        "last_updated": "2026-04-19 15:29:20"
     },
     "Banana": {
-        "grade_A": 3,
+        "grade_A": 6,
         "grade_B": 0,
         "grade_C": 0,
-        "total_inspected": 3,
-        "last_updated": "2026-03-07 22:17:09"
+        "total_inspected": 6,
+        "last_updated": "2026-04-19 15:29:20"
     },
     "Tomato": {
         "grade_A": 0,
         "grade_B": 0,
-        "grade_C": 3,
-        "total_inspected": 3,
-        "last_updated": "2026-03-07 22:17:09"
+        "grade_C": 6,
+        "total_inspected": 6,
+        "last_updated": "2026-04-19 15:29:20"
     }
 }

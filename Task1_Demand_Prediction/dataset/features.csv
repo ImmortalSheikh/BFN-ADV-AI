@@ -1,391 +1,391 @@
 customer_id,customer,product_id,product,category,producer,order_count,days_since_last,avg_quantity,order_frequency,week_of_year,category_encoded,will_reorder
-1,Alice Jones,1,Carrots,Vegetables,Green Valley Farm,29,7,3.0,0.8788,11,3,1
-1,Alice Jones,2,Potatoes,Vegetables,Green Valley Farm,30,0,3.07,0.9091,11,3,1
-1,Alice Jones,3,Spinach,Vegetables,Green Valley Farm,1,14,4.0,0.0303,11,3,0
-1,Alice Jones,4,Courgettes,Vegetables,Green Valley Farm,1,133,2.0,0.0303,11,3,0
-1,Alice Jones,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-1,Alice Jones,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,1
-1,Alice Jones,7,Free Range Eggs,Dairy,Bristol Dairy Co,12,133,3.42,0.3636,11,1,0
-1,Alice Jones,8,Whole Milk,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-1,Alice Jones,9,Cheddar Cheese,Dairy,Bristol Dairy Co,1,126,5.0,0.0303,11,1,1
-1,Alice Jones,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-1,Alice Jones,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,25,0,3.16,0.7576,11,0,1
-1,Alice Jones,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-1,Alice Jones,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-2,Bob Smith,1,Carrots,Vegetables,Green Valley Farm,22,7,3.41,0.7333,11,3,1
-2,Bob Smith,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-2,Bob Smith,3,Spinach,Vegetables,Green Valley Farm,1,42,3.0,0.0333,11,3,1
-2,Bob Smith,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-2,Bob Smith,5,Apples,Fruit,Green Valley Farm,26,7,2.58,0.8667,11,2,1
-2,Bob Smith,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-2,Bob Smith,7,Free Range Eggs,Dairy,Bristol Dairy Co,1,273,5.0,0.0333,11,1,1
-2,Bob Smith,8,Whole Milk,Dairy,Bristol Dairy Co,12,105,2.75,0.4,11,1,0
-2,Bob Smith,9,Cheddar Cheese,Dairy,Bristol Dairy Co,24,7,3.17,0.8,11,1,1
-2,Bob Smith,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-2,Bob Smith,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,1,126,1.0,0.0333,11,0,1
-2,Bob Smith,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,1
-2,Bob Smith,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-3,Carol White,1,Carrots,Vegetables,Green Valley Farm,1,238,5.0,0.0303,11,3,0
-3,Carol White,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-3,Carol White,3,Spinach,Vegetables,Green Valley Farm,26,0,2.88,0.7879,11,3,1
-3,Carol White,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-3,Carol White,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-3,Carol White,6,Strawberries,Fruit,Green Valley Farm,10,140,2.5,0.303,11,2,0
-3,Carol White,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-3,Carol White,8,Whole Milk,Dairy,Bristol Dairy Co,1,21,4.0,0.0303,11,1,1
-3,Carol White,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-3,Carol White,10,Natural Yoghurt,Dairy,Bristol Dairy Co,28,0,3.25,0.8485,11,1,1
-3,Carol White,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,2,63,2.5,0.0606,11,0,0
-3,Carol White,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,28,0,3.0,0.8485,11,0,1
-3,Carol White,13,Croissants,Bakery,Artisan Bakery Bristol,1,7,1.0,0.0303,11,0,0
-4,David Brown,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-4,David Brown,2,Potatoes,Vegetables,Green Valley Farm,9,147,3.11,0.3462,11,3,0
-4,David Brown,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,1
-4,David Brown,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-4,David Brown,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-4,David Brown,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-4,David Brown,7,Free Range Eggs,Dairy,Bristol Dairy Co,18,0,3.22,0.6923,11,1,1
-4,David Brown,8,Whole Milk,Dairy,Bristol Dairy Co,1,91,4.0,0.0385,11,1,0
-4,David Brown,9,Cheddar Cheese,Dairy,Bristol Dairy Co,23,0,3.0,0.8846,11,1,1
-4,David Brown,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-4,David Brown,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-4,David Brown,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,1
-4,David Brown,13,Croissants,Bakery,Artisan Bakery Bristol,24,0,3.25,0.9231,11,0,1
-5,Emma Taylor,1,Carrots,Vegetables,Green Valley Farm,13,112,3.31,0.4194,11,3,0
-5,Emma Taylor,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-5,Emma Taylor,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-5,Emma Taylor,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-5,Emma Taylor,5,Apples,Fruit,Green Valley Farm,26,0,3.04,0.8387,11,2,1
-5,Emma Taylor,6,Strawberries,Fruit,Green Valley Farm,1,42,2.0,0.0323,11,2,0
-5,Emma Taylor,7,Free Range Eggs,Dairy,Bristol Dairy Co,1,175,3.0,0.0323,11,1,0
-5,Emma Taylor,8,Whole Milk,Dairy,Bristol Dairy Co,26,14,3.23,0.8387,11,1,1
-5,Emma Taylor,9,Cheddar Cheese,Dairy,Bristol Dairy Co,2,70,2.5,0.0645,11,1,0
-5,Emma Taylor,10,Natural Yoghurt,Dairy,Bristol Dairy Co,1,0,1.0,0.0323,11,1,0
-5,Emma Taylor,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,25,0,3.4,0.8065,11,0,1
-5,Emma Taylor,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-5,Emma Taylor,13,Croissants,Bakery,Artisan Bakery Bristol,1,140,2.0,0.0323,11,0,0
-6,Frank Wilson,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-6,Frank Wilson,2,Potatoes,Vegetables,Green Valley Farm,22,42,3.32,0.7333,11,3,0
-6,Frank Wilson,3,Spinach,Vegetables,Green Valley Farm,1,154,2.0,0.0333,11,3,1
-6,Frank Wilson,4,Courgettes,Vegetables,Green Valley Farm,25,14,3.12,0.8333,11,3,1
-6,Frank Wilson,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-6,Frank Wilson,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-6,Frank Wilson,7,Free Range Eggs,Dairy,Bristol Dairy Co,23,14,2.96,0.7667,11,1,1
-6,Frank Wilson,8,Whole Milk,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-6,Frank Wilson,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-6,Frank Wilson,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,1
-6,Frank Wilson,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-6,Frank Wilson,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,25,14,2.96,0.8333,11,0,1
-6,Frank Wilson,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-7,Grace Moore,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,1
-7,Grace Moore,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-7,Grace Moore,3,Spinach,Vegetables,Green Valley Farm,20,0,2.8,0.7692,11,3,1
-7,Grace Moore,4,Courgettes,Vegetables,Green Valley Farm,1,224,5.0,0.0385,11,3,0
-7,Grace Moore,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-7,Grace Moore,6,Strawberries,Fruit,Green Valley Farm,7,112,3.71,0.2692,11,2,0
-7,Grace Moore,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-7,Grace Moore,8,Whole Milk,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-7,Grace Moore,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-7,Grace Moore,10,Natural Yoghurt,Dairy,Bristol Dairy Co,22,0,3.23,0.8462,11,1,1
-7,Grace Moore,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,1,259,2.0,0.0385,11,0,0
-7,Grace Moore,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-7,Grace Moore,13,Croissants,Bakery,Artisan Bakery Bristol,10,112,2.5,0.3846,11,0,0
-8,Henry Davis,1,Carrots,Vegetables,Green Valley Farm,24,14,3.08,0.8276,11,3,1
-8,Henry Davis,2,Potatoes,Vegetables,Green Valley Farm,14,119,2.71,0.4828,11,3,0
-8,Henry Davis,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-8,Henry Davis,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,1
-8,Henry Davis,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-8,Henry Davis,6,Strawberries,Fruit,Green Valley Farm,1,182,1.0,0.0345,11,2,0
-8,Henry Davis,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-8,Henry Davis,8,Whole Milk,Dairy,Bristol Dairy Co,12,119,2.25,0.4138,11,1,0
-8,Henry Davis,9,Cheddar Cheese,Dairy,Bristol Dairy Co,25,14,2.4,0.8621,11,1,1
-8,Henry Davis,10,Natural Yoghurt,Dairy,Bristol Dairy Co,2,28,3.5,0.069,11,1,0
-8,Henry Davis,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-8,Henry Davis,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,3,14,2.67,0.1034,11,0,0
-8,Henry Davis,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-9,Isla Martin,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-9,Isla Martin,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-9,Isla Martin,3,Spinach,Vegetables,Green Valley Farm,22,0,3.14,0.7333,11,3,1
-9,Isla Martin,4,Courgettes,Vegetables,Green Valley Farm,1,196,5.0,0.0333,11,3,0
-9,Isla Martin,5,Apples,Fruit,Green Valley Farm,25,7,2.8,0.8333,11,2,1
-9,Isla Martin,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-9,Isla Martin,7,Free Range Eggs,Dairy,Bristol Dairy Co,9,126,3.22,0.3,11,1,0
-9,Isla Martin,8,Whole Milk,Dairy,Bristol Dairy Co,2,63,3.5,0.0667,11,1,0
-9,Isla Martin,9,Cheddar Cheese,Dairy,Bristol Dairy Co,1,0,4.0,0.0333,11,1,0
-9,Isla Martin,10,Natural Yoghurt,Dairy,Bristol Dairy Co,1,70,1.0,0.0333,11,1,0
-9,Isla Martin,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,27,0,3.15,0.9,11,0,1
-9,Isla Martin,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,259,5.0,0.0333,11,0,0
-9,Isla Martin,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-10,Jack Thompson,1,Carrots,Vegetables,Green Valley Farm,13,0,3.0,0.5,11,3,0
-10,Jack Thompson,2,Potatoes,Vegetables,Green Valley Farm,23,0,3.04,0.8846,11,3,1
-10,Jack Thompson,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-10,Jack Thompson,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,1
-10,Jack Thompson,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-10,Jack Thompson,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-10,Jack Thompson,7,Free Range Eggs,Dairy,Bristol Dairy Co,1,49,1.0,0.0385,11,1,0
-10,Jack Thompson,8,Whole Milk,Dairy,Bristol Dairy Co,19,0,3.11,0.7308,11,1,1
-10,Jack Thompson,9,Cheddar Cheese,Dairy,Bristol Dairy Co,1,112,2.0,0.0385,11,1,0
-10,Jack Thompson,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-10,Jack Thompson,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,1,42,4.0,0.0385,11,0,0
-10,Jack Thompson,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,91,3.0,0.0385,11,0,0
-10,Jack Thompson,13,Croissants,Bakery,Artisan Bakery Bristol,22,0,3.0,0.8462,11,0,1
-11,Karen Harris,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-11,Karen Harris,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-11,Karen Harris,3,Spinach,Vegetables,Green Valley Farm,1,91,5.0,0.04,11,3,0
-11,Karen Harris,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-11,Karen Harris,5,Apples,Fruit,Green Valley Farm,9,0,3.22,0.36,11,2,0
-11,Karen Harris,6,Strawberries,Fruit,Green Valley Farm,22,0,3.05,0.88,11,2,1
-11,Karen Harris,7,Free Range Eggs,Dairy,Bristol Dairy Co,1,42,2.0,0.04,11,1,0
-11,Karen Harris,8,Whole Milk,Dairy,Bristol Dairy Co,1,84,3.0,0.04,11,1,0
-11,Karen Harris,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-11,Karen Harris,10,Natural Yoghurt,Dairy,Bristol Dairy Co,22,0,3.14,0.88,11,1,1
-11,Karen Harris,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,1,105,2.0,0.04,11,0,0
-11,Karen Harris,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,10,133,3.8,0.4,11,0,0
-11,Karen Harris,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-12,Liam Roberts,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-12,Liam Roberts,2,Potatoes,Vegetables,Green Valley Farm,2,112,3.5,0.0625,11,3,0
-12,Liam Roberts,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-12,Liam Roberts,4,Courgettes,Vegetables,Green Valley Farm,17,98,3.06,0.5312,11,3,1
-12,Liam Roberts,5,Apples,Fruit,Green Valley Farm,1,231,2.0,0.0312,11,2,0
-12,Liam Roberts,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-12,Liam Roberts,7,Free Range Eggs,Dairy,Bristol Dairy Co,25,21,2.92,0.7812,11,1,1
-12,Liam Roberts,8,Whole Milk,Dairy,Bristol Dairy Co,1,210,1.0,0.0312,11,1,0
-12,Liam Roberts,9,Cheddar Cheese,Dairy,Bristol Dairy Co,26,28,2.81,0.8125,11,1,1
-12,Liam Roberts,10,Natural Yoghurt,Dairy,Bristol Dairy Co,1,161,1.0,0.0312,11,1,0
-12,Liam Roberts,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,26,21,3.12,0.8125,11,0,1
-12,Liam Roberts,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,28,5.0,0.0312,11,0,1
-12,Liam Roberts,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-13,Mia Lewis,1,Carrots,Vegetables,Green Valley Farm,31,0,2.94,0.8857,11,3,1
-13,Mia Lewis,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-13,Mia Lewis,3,Spinach,Vegetables,Green Valley Farm,30,7,3.03,0.8571,11,3,1
-13,Mia Lewis,4,Courgettes,Vegetables,Green Valley Farm,1,14,1.0,0.0286,11,3,0
-13,Mia Lewis,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-13,Mia Lewis,6,Strawberries,Fruit,Green Valley Farm,1,259,2.0,0.0286,11,2,0
-13,Mia Lewis,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-13,Mia Lewis,8,Whole Milk,Dairy,Bristol Dairy Co,23,0,3.17,0.6571,11,1,1
-13,Mia Lewis,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-13,Mia Lewis,10,Natural Yoghurt,Dairy,Bristol Dairy Co,1,28,4.0,0.0286,11,1,0
-13,Mia Lewis,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-13,Mia Lewis,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,2,0,4.0,0.0571,11,0,0
-13,Mia Lewis,13,Croissants,Bakery,Artisan Bakery Bristol,21,35,2.48,0.6,11,0,0
-14,Noah Walker,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-14,Noah Walker,2,Potatoes,Vegetables,Green Valley Farm,24,0,2.62,0.8889,11,3,1
-14,Noah Walker,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-14,Noah Walker,4,Courgettes,Vegetables,Green Valley Farm,1,70,2.0,0.037,11,3,0
-14,Noah Walker,5,Apples,Fruit,Green Valley Farm,23,0,2.78,0.8519,11,2,1
-14,Noah Walker,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-14,Noah Walker,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,1
-14,Noah Walker,8,Whole Milk,Dairy,Bristol Dairy Co,1,42,3.0,0.037,11,1,1
-14,Noah Walker,9,Cheddar Cheese,Dairy,Bristol Dairy Co,8,147,2.75,0.2963,11,1,0
-14,Noah Walker,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-14,Noah Walker,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,1,252,5.0,0.037,11,0,0
-14,Noah Walker,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,13,140,3.15,0.4815,11,0,0
-14,Noah Walker,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-15,Olivia Hall,1,Carrots,Vegetables,Green Valley Farm,1,91,1.0,0.0333,11,3,0
-15,Olivia Hall,2,Potatoes,Vegetables,Green Valley Farm,2,63,3.0,0.0667,11,3,0
-15,Olivia Hall,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-15,Olivia Hall,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-15,Olivia Hall,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-15,Olivia Hall,6,Strawberries,Fruit,Green Valley Farm,13,119,2.62,0.4333,11,2,0
-15,Olivia Hall,7,Free Range Eggs,Dairy,Bristol Dairy Co,24,0,2.88,0.8,11,1,1
-15,Olivia Hall,8,Whole Milk,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,1
-15,Olivia Hall,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-15,Olivia Hall,10,Natural Yoghurt,Dairy,Bristol Dairy Co,25,0,2.92,0.8333,11,1,1
-15,Olivia Hall,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,25,0,2.92,0.8333,11,0,1
-15,Olivia Hall,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,42,4.0,0.0333,11,0,0
-15,Olivia Hall,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-16,Peter Allen,1,Carrots,Vegetables,Green Valley Farm,24,0,2.92,0.75,11,3,1
-16,Peter Allen,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-16,Peter Allen,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-16,Peter Allen,4,Courgettes,Vegetables,Green Valley Farm,14,105,2.93,0.4375,11,3,0
-16,Peter Allen,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-16,Peter Allen,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,1
-16,Peter Allen,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,1
-16,Peter Allen,8,Whole Milk,Dairy,Bristol Dairy Co,27,0,3.07,0.8438,11,1,1
-16,Peter Allen,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-16,Peter Allen,10,Natural Yoghurt,Dairy,Bristol Dairy Co,1,42,1.0,0.0312,11,1,0
-16,Peter Allen,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,2,189,4.5,0.0625,11,0,0
-16,Peter Allen,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,16,70,3.0,0.5,11,0,0
-16,Peter Allen,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,1
-17,Quinn Young,1,Carrots,Vegetables,Green Valley Farm,1,154,2.0,0.0323,11,3,0
-17,Quinn Young,2,Potatoes,Vegetables,Green Valley Farm,1,168,1.0,0.0323,11,3,0
-17,Quinn Young,3,Spinach,Vegetables,Green Valley Farm,16,133,3.31,0.5161,11,3,1
-17,Quinn Young,4,Courgettes,Vegetables,Green Valley Farm,1,56,3.0,0.0323,11,3,0
-17,Quinn Young,5,Apples,Fruit,Green Valley Farm,24,7,3.29,0.7742,11,2,1
-17,Quinn Young,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-17,Quinn Young,7,Free Range Eggs,Dairy,Bristol Dairy Co,1,161,1.0,0.0323,11,1,0
-17,Quinn Young,8,Whole Milk,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-17,Quinn Young,9,Cheddar Cheese,Dairy,Bristol Dairy Co,26,7,3.0,0.8387,11,1,1
-17,Quinn Young,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-17,Quinn Young,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-17,Quinn Young,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-17,Quinn Young,13,Croissants,Bakery,Artisan Bakery Bristol,14,140,2.93,0.4516,11,0,0
-18,Rachel King,1,Carrots,Vegetables,Green Valley Farm,23,0,3.48,0.7419,11,3,1
-18,Rachel King,2,Potatoes,Vegetables,Green Valley Farm,26,0,3.23,0.8387,11,3,1
-18,Rachel King,3,Spinach,Vegetables,Green Valley Farm,1,35,5.0,0.0323,11,3,0
-18,Rachel King,4,Courgettes,Vegetables,Green Valley Farm,1,63,5.0,0.0323,11,3,0
-18,Rachel King,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-18,Rachel King,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-18,Rachel King,7,Free Range Eggs,Dairy,Bristol Dairy Co,26,0,3.46,0.8387,11,1,1
-18,Rachel King,8,Whole Milk,Dairy,Bristol Dairy Co,1,273,2.0,0.0323,11,1,0
-18,Rachel King,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-18,Rachel King,10,Natural Yoghurt,Dairy,Bristol Dairy Co,11,77,3.55,0.3548,11,1,0
-18,Rachel King,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-18,Rachel King,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,84,1.0,0.0323,11,0,0
-18,Rachel King,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-19,Sam Wright,1,Carrots,Vegetables,Green Valley Farm,1,189,3.0,0.0294,11,3,0
-19,Sam Wright,2,Potatoes,Vegetables,Green Valley Farm,1,182,1.0,0.0294,11,3,0
-19,Sam Wright,3,Spinach,Vegetables,Green Valley Farm,1,21,4.0,0.0294,11,3,0
-19,Sam Wright,4,Courgettes,Vegetables,Green Valley Farm,25,0,2.96,0.7353,11,3,1
-19,Sam Wright,5,Apples,Fruit,Green Valley Farm,1,112,2.0,0.0294,11,2,0
-19,Sam Wright,6,Strawberries,Fruit,Green Valley Farm,18,77,2.89,0.5294,11,2,0
-19,Sam Wright,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-19,Sam Wright,8,Whole Milk,Dairy,Bristol Dairy Co,30,7,2.77,0.8824,11,1,1
-19,Sam Wright,9,Cheddar Cheese,Dairy,Bristol Dairy Co,2,42,3.5,0.0588,11,1,0
-19,Sam Wright,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-19,Sam Wright,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,24,0,3.38,0.7059,11,0,1
-19,Sam Wright,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,217,2.0,0.0294,11,0,0
-19,Sam Wright,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-20,Tara Scott,1,Carrots,Vegetables,Green Valley Farm,1,168,3.0,0.0323,11,3,0
-20,Tara Scott,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-20,Tara Scott,3,Spinach,Vegetables,Green Valley Farm,22,0,2.95,0.7097,11,3,1
-20,Tara Scott,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-20,Tara Scott,5,Apples,Fruit,Green Valley Farm,27,0,2.89,0.871,11,2,1
-20,Tara Scott,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-20,Tara Scott,7,Free Range Eggs,Dairy,Bristol Dairy Co,1,196,4.0,0.0323,11,1,0
-20,Tara Scott,8,Whole Milk,Dairy,Bristol Dairy Co,1,28,4.0,0.0323,11,1,0
-20,Tara Scott,9,Cheddar Cheese,Dairy,Bristol Dairy Co,14,140,2.64,0.4516,11,1,0
-20,Tara Scott,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-20,Tara Scott,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-20,Tara Scott,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,27,7,3.37,0.871,11,0,1
-20,Tara Scott,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-21,Uma Green,1,Carrots,Vegetables,Green Valley Farm,26,0,3.12,0.8667,11,3,1
-21,Uma Green,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,1
-21,Uma Green,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-21,Uma Green,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-21,Uma Green,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,1
-21,Uma Green,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,1
-21,Uma Green,7,Free Range Eggs,Dairy,Bristol Dairy Co,12,119,3.0,0.4,11,1,1
-21,Uma Green,8,Whole Milk,Dairy,Bristol Dairy Co,1,0,3.0,0.0333,11,1,0
-21,Uma Green,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-21,Uma Green,10,Natural Yoghurt,Dairy,Bristol Dairy Co,11,119,2.36,0.3667,11,1,0
-21,Uma Green,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-21,Uma Green,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,112,5.0,0.0333,11,0,0
-21,Uma Green,13,Croissants,Bakery,Artisan Bakery Bristol,27,0,3.3,0.9,11,0,1
-22,Victor Adams,1,Carrots,Vegetables,Green Valley Farm,2,98,3.0,0.0667,11,3,1
-22,Victor Adams,2,Potatoes,Vegetables,Green Valley Farm,24,7,3.42,0.8,11,3,1
-22,Victor Adams,3,Spinach,Vegetables,Green Valley Farm,25,7,3.32,0.8333,11,3,1
-22,Victor Adams,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-22,Victor Adams,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-22,Victor Adams,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,1
-22,Victor Adams,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-22,Victor Adams,8,Whole Milk,Dairy,Bristol Dairy Co,23,7,2.61,0.7667,11,1,1
-22,Victor Adams,9,Cheddar Cheese,Dairy,Bristol Dairy Co,1,182,3.0,0.0333,11,1,0
-22,Victor Adams,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,1
-22,Victor Adams,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,18,35,3.17,0.6,11,0,0
-22,Victor Adams,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-22,Victor Adams,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-23,Wendy Baker,1,Carrots,Vegetables,Green Valley Farm,23,0,3.09,0.7667,11,3,1
-23,Wendy Baker,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-23,Wendy Baker,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-23,Wendy Baker,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-23,Wendy Baker,5,Apples,Fruit,Green Valley Farm,24,0,2.83,0.8,11,2,1
-23,Wendy Baker,6,Strawberries,Fruit,Green Valley Farm,12,147,2.42,0.4,11,2,0
-23,Wendy Baker,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-23,Wendy Baker,8,Whole Milk,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-23,Wendy Baker,9,Cheddar Cheese,Dairy,Bristol Dairy Co,23,0,2.74,0.7667,11,1,1
-23,Wendy Baker,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-23,Wendy Baker,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-23,Wendy Baker,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,0,3.0,0.0333,11,0,0
-23,Wendy Baker,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-24,Xavier Clark,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-24,Xavier Clark,2,Potatoes,Vegetables,Green Valley Farm,1,182,5.0,0.0385,11,3,0
-24,Xavier Clark,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-24,Xavier Clark,4,Courgettes,Vegetables,Green Valley Farm,17,84,2.47,0.6538,11,3,0
-24,Xavier Clark,5,Apples,Fruit,Green Valley Farm,1,119,3.0,0.0385,11,2,0
-24,Xavier Clark,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-24,Xavier Clark,7,Free Range Eggs,Dairy,Bristol Dairy Co,15,84,3.0,0.5769,11,1,0
-24,Xavier Clark,8,Whole Milk,Dairy,Bristol Dairy Co,23,0,3.3,0.8846,11,1,1
-24,Xavier Clark,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-24,Xavier Clark,10,Natural Yoghurt,Dairy,Bristol Dairy Co,1,133,1.0,0.0385,11,1,0
-24,Xavier Clark,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-24,Xavier Clark,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,20,0,3.5,0.7692,11,0,1
-24,Xavier Clark,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-25,Yasmin Evans,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-25,Yasmin Evans,2,Potatoes,Vegetables,Green Valley Farm,18,112,3.83,0.5625,11,3,0
-25,Yasmin Evans,3,Spinach,Vegetables,Green Valley Farm,1,7,1.0,0.0312,11,3,1
-25,Yasmin Evans,4,Courgettes,Vegetables,Green Valley Farm,1,245,4.0,0.0312,11,3,0
-25,Yasmin Evans,5,Apples,Fruit,Green Valley Farm,28,0,3.18,0.875,11,2,1
-25,Yasmin Evans,6,Strawberries,Fruit,Green Valley Farm,1,42,3.0,0.0312,11,2,1
-25,Yasmin Evans,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-25,Yasmin Evans,8,Whole Milk,Dairy,Bristol Dairy Co,1,175,4.0,0.0312,11,1,0
-25,Yasmin Evans,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-25,Yasmin Evans,10,Natural Yoghurt,Dairy,Bristol Dairy Co,28,0,3.32,0.875,11,1,1
-25,Yasmin Evans,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,18,70,3.11,0.5625,11,0,0
-25,Yasmin Evans,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-25,Yasmin Evans,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-26,Zoe Foster,1,Carrots,Vegetables,Green Valley Farm,31,0,3.19,0.8158,11,3,1
-26,Zoe Foster,2,Potatoes,Vegetables,Green Valley Farm,1,14,2.0,0.0263,11,3,1
-26,Zoe Foster,3,Spinach,Vegetables,Green Valley Farm,25,49,3.2,0.6579,11,3,0
-26,Zoe Foster,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-26,Zoe Foster,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-26,Zoe Foster,6,Strawberries,Fruit,Green Valley Farm,1,238,1.0,0.0263,11,2,0
-26,Zoe Foster,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,1
-26,Zoe Foster,8,Whole Milk,Dairy,Bristol Dairy Co,1,56,1.0,0.0263,11,1,1
-26,Zoe Foster,9,Cheddar Cheese,Dairy,Bristol Dairy Co,24,56,2.92,0.6316,11,1,0
-26,Zoe Foster,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-26,Zoe Foster,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,1,273,1.0,0.0263,11,0,0
-26,Zoe Foster,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-26,Zoe Foster,13,Croissants,Bakery,Artisan Bakery Bristol,31,0,3.06,0.8158,11,0,1
-27,Aaron Hughes,1,Carrots,Vegetables,Green Valley Farm,1,0,4.0,0.037,11,3,0
-27,Aaron Hughes,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-27,Aaron Hughes,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-27,Aaron Hughes,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-27,Aaron Hughes,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-27,Aaron Hughes,6,Strawberries,Fruit,Green Valley Farm,23,0,2.87,0.8519,11,2,1
-27,Aaron Hughes,7,Free Range Eggs,Dairy,Bristol Dairy Co,13,112,2.85,0.4815,11,1,0
-27,Aaron Hughes,8,Whole Milk,Dairy,Bristol Dairy Co,22,0,2.64,0.8148,11,1,1
-27,Aaron Hughes,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-27,Aaron Hughes,10,Natural Yoghurt,Dairy,Bristol Dairy Co,1,259,2.0,0.037,11,1,0
-27,Aaron Hughes,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-27,Aaron Hughes,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,20,0,3.1,0.7407,11,0,1
-27,Aaron Hughes,13,Croissants,Bakery,Artisan Bakery Bristol,1,70,2.0,0.037,11,0,0
-28,Bella Price,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-28,Bella Price,2,Potatoes,Vegetables,Green Valley Farm,2,154,1.5,0.0741,11,3,0
-28,Bella Price,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-28,Bella Price,4,Courgettes,Vegetables,Green Valley Farm,21,7,2.76,0.7778,11,3,1
-28,Bella Price,5,Apples,Fruit,Green Valley Farm,20,7,2.8,0.7407,11,2,1
-28,Bella Price,6,Strawberries,Fruit,Green Valley Farm,1,42,5.0,0.037,11,2,0
-28,Bella Price,7,Free Range Eggs,Dairy,Bristol Dairy Co,1,196,4.0,0.037,11,1,0
-28,Bella Price,8,Whole Milk,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-28,Bella Price,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-28,Bella Price,10,Natural Yoghurt,Dairy,Bristol Dairy Co,17,35,3.06,0.6296,11,1,0
-28,Bella Price,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,19,42,3.53,0.7037,11,0,0
-28,Bella Price,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,56,3.0,0.037,11,0,0
-28,Bella Price,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-29,Callum Reed,1,Carrots,Vegetables,Green Valley Farm,23,0,2.91,0.7931,11,3,1
-29,Callum Reed,2,Potatoes,Vegetables,Green Valley Farm,16,70,3.06,0.5517,11,3,0
-29,Callum Reed,3,Spinach,Vegetables,Green Valley Farm,1,112,4.0,0.0345,11,3,0
-29,Callum Reed,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-29,Callum Reed,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,1
-29,Callum Reed,6,Strawberries,Fruit,Green Valley Farm,1,7,4.0,0.0345,11,2,0
-29,Callum Reed,7,Free Range Eggs,Dairy,Bristol Dairy Co,1,231,1.0,0.0345,11,1,1
-29,Callum Reed,8,Whole Milk,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-29,Callum Reed,9,Cheddar Cheese,Dairy,Bristol Dairy Co,17,70,3.06,0.5862,11,1,0
-29,Callum Reed,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,1
-29,Callum Reed,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-29,Callum Reed,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-29,Callum Reed,13,Croissants,Bakery,Artisan Bakery Bristol,21,0,3.1,0.7241,11,0,1
-30,Diana Shaw,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-30,Diana Shaw,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,11,3,0
-30,Diana Shaw,3,Spinach,Vegetables,Green Valley Farm,18,49,2.83,0.6667,11,3,0
-30,Diana Shaw,4,Courgettes,Vegetables,Green Valley Farm,1,91,3.0,0.037,11,3,0
-30,Diana Shaw,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,11,2,0
-30,Diana Shaw,6,Strawberries,Fruit,Green Valley Farm,21,0,2.81,0.7778,11,2,1
-30,Diana Shaw,7,Free Range Eggs,Dairy,Bristol Dairy Co,17,70,3.0,0.6296,11,1,1
-30,Diana Shaw,8,Whole Milk,Dairy,Bristol Dairy Co,25,0,2.68,0.9259,11,1,1
-30,Diana Shaw,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-30,Diana Shaw,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,11,1,0
-30,Diana Shaw,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,2,49,2.5,0.0741,11,0,0
-30,Diana Shaw,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,11,0,0
-30,Diana Shaw,13,Croissants,Bakery,Artisan Bakery Bristol,2,0,2.5,0.0741,11,0,0
+1,Alice Jones,1,Carrots,Vegetables,Green Valley Farm,29,7,3.0,0.8788,16,3,1
+1,Alice Jones,2,Potatoes,Vegetables,Green Valley Farm,30,0,3.07,0.9091,16,3,1
+1,Alice Jones,3,Spinach,Vegetables,Green Valley Farm,1,14,4.0,0.0303,16,3,0
+1,Alice Jones,4,Courgettes,Vegetables,Green Valley Farm,1,133,2.0,0.0303,16,3,0
+1,Alice Jones,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+1,Alice Jones,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,1
+1,Alice Jones,7,Free Range Eggs,Dairy,Bristol Dairy Co,12,133,3.42,0.3636,16,1,0
+1,Alice Jones,8,Whole Milk,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+1,Alice Jones,9,Cheddar Cheese,Dairy,Bristol Dairy Co,1,126,5.0,0.0303,16,1,1
+1,Alice Jones,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+1,Alice Jones,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,25,0,3.16,0.7576,16,0,1
+1,Alice Jones,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+1,Alice Jones,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+2,Bob Smith,1,Carrots,Vegetables,Green Valley Farm,22,7,3.41,0.7333,16,3,1
+2,Bob Smith,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+2,Bob Smith,3,Spinach,Vegetables,Green Valley Farm,1,42,3.0,0.0333,16,3,1
+2,Bob Smith,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+2,Bob Smith,5,Apples,Fruit,Green Valley Farm,26,7,2.58,0.8667,16,2,1
+2,Bob Smith,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+2,Bob Smith,7,Free Range Eggs,Dairy,Bristol Dairy Co,1,273,5.0,0.0333,16,1,1
+2,Bob Smith,8,Whole Milk,Dairy,Bristol Dairy Co,12,105,2.75,0.4,16,1,0
+2,Bob Smith,9,Cheddar Cheese,Dairy,Bristol Dairy Co,24,7,3.17,0.8,16,1,1
+2,Bob Smith,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+2,Bob Smith,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,1,126,1.0,0.0333,16,0,1
+2,Bob Smith,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,1
+2,Bob Smith,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+3,Carol White,1,Carrots,Vegetables,Green Valley Farm,1,238,5.0,0.0303,16,3,0
+3,Carol White,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+3,Carol White,3,Spinach,Vegetables,Green Valley Farm,26,0,2.88,0.7879,16,3,1
+3,Carol White,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+3,Carol White,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+3,Carol White,6,Strawberries,Fruit,Green Valley Farm,10,140,2.5,0.303,16,2,0
+3,Carol White,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+3,Carol White,8,Whole Milk,Dairy,Bristol Dairy Co,1,21,4.0,0.0303,16,1,1
+3,Carol White,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+3,Carol White,10,Natural Yoghurt,Dairy,Bristol Dairy Co,28,0,3.25,0.8485,16,1,1
+3,Carol White,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,2,63,2.5,0.0606,16,0,0
+3,Carol White,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,28,0,3.0,0.8485,16,0,1
+3,Carol White,13,Croissants,Bakery,Artisan Bakery Bristol,1,7,1.0,0.0303,16,0,0
+4,David Brown,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+4,David Brown,2,Potatoes,Vegetables,Green Valley Farm,9,147,3.11,0.3462,16,3,0
+4,David Brown,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,1
+4,David Brown,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+4,David Brown,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+4,David Brown,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+4,David Brown,7,Free Range Eggs,Dairy,Bristol Dairy Co,18,0,3.22,0.6923,16,1,1
+4,David Brown,8,Whole Milk,Dairy,Bristol Dairy Co,1,91,4.0,0.0385,16,1,0
+4,David Brown,9,Cheddar Cheese,Dairy,Bristol Dairy Co,23,0,3.0,0.8846,16,1,1
+4,David Brown,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+4,David Brown,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+4,David Brown,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,1
+4,David Brown,13,Croissants,Bakery,Artisan Bakery Bristol,24,0,3.25,0.9231,16,0,1
+5,Emma Taylor,1,Carrots,Vegetables,Green Valley Farm,13,112,3.31,0.4194,16,3,0
+5,Emma Taylor,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+5,Emma Taylor,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+5,Emma Taylor,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+5,Emma Taylor,5,Apples,Fruit,Green Valley Farm,26,0,3.04,0.8387,16,2,1
+5,Emma Taylor,6,Strawberries,Fruit,Green Valley Farm,1,42,2.0,0.0323,16,2,0
+5,Emma Taylor,7,Free Range Eggs,Dairy,Bristol Dairy Co,1,175,3.0,0.0323,16,1,0
+5,Emma Taylor,8,Whole Milk,Dairy,Bristol Dairy Co,26,14,3.23,0.8387,16,1,1
+5,Emma Taylor,9,Cheddar Cheese,Dairy,Bristol Dairy Co,2,70,2.5,0.0645,16,1,0
+5,Emma Taylor,10,Natural Yoghurt,Dairy,Bristol Dairy Co,1,0,1.0,0.0323,16,1,0
+5,Emma Taylor,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,25,0,3.4,0.8065,16,0,1
+5,Emma Taylor,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+5,Emma Taylor,13,Croissants,Bakery,Artisan Bakery Bristol,1,140,2.0,0.0323,16,0,0
+6,Frank Wilson,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+6,Frank Wilson,2,Potatoes,Vegetables,Green Valley Farm,22,42,3.32,0.7333,16,3,0
+6,Frank Wilson,3,Spinach,Vegetables,Green Valley Farm,1,154,2.0,0.0333,16,3,1
+6,Frank Wilson,4,Courgettes,Vegetables,Green Valley Farm,25,14,3.12,0.8333,16,3,1
+6,Frank Wilson,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+6,Frank Wilson,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+6,Frank Wilson,7,Free Range Eggs,Dairy,Bristol Dairy Co,23,14,2.96,0.7667,16,1,1
+6,Frank Wilson,8,Whole Milk,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+6,Frank Wilson,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+6,Frank Wilson,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,1
+6,Frank Wilson,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+6,Frank Wilson,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,25,14,2.96,0.8333,16,0,1
+6,Frank Wilson,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+7,Grace Moore,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,1
+7,Grace Moore,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+7,Grace Moore,3,Spinach,Vegetables,Green Valley Farm,20,0,2.8,0.7692,16,3,1
+7,Grace Moore,4,Courgettes,Vegetables,Green Valley Farm,1,224,5.0,0.0385,16,3,0
+7,Grace Moore,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+7,Grace Moore,6,Strawberries,Fruit,Green Valley Farm,7,112,3.71,0.2692,16,2,0
+7,Grace Moore,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+7,Grace Moore,8,Whole Milk,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+7,Grace Moore,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+7,Grace Moore,10,Natural Yoghurt,Dairy,Bristol Dairy Co,22,0,3.23,0.8462,16,1,1
+7,Grace Moore,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,1,259,2.0,0.0385,16,0,0
+7,Grace Moore,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+7,Grace Moore,13,Croissants,Bakery,Artisan Bakery Bristol,10,112,2.5,0.3846,16,0,0
+8,Henry Davis,1,Carrots,Vegetables,Green Valley Farm,24,14,3.08,0.8276,16,3,1
+8,Henry Davis,2,Potatoes,Vegetables,Green Valley Farm,14,119,2.71,0.4828,16,3,0
+8,Henry Davis,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+8,Henry Davis,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,1
+8,Henry Davis,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+8,Henry Davis,6,Strawberries,Fruit,Green Valley Farm,1,182,1.0,0.0345,16,2,0
+8,Henry Davis,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+8,Henry Davis,8,Whole Milk,Dairy,Bristol Dairy Co,12,119,2.25,0.4138,16,1,0
+8,Henry Davis,9,Cheddar Cheese,Dairy,Bristol Dairy Co,25,14,2.4,0.8621,16,1,1
+8,Henry Davis,10,Natural Yoghurt,Dairy,Bristol Dairy Co,2,28,3.5,0.069,16,1,0
+8,Henry Davis,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+8,Henry Davis,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,3,14,2.67,0.1034,16,0,0
+8,Henry Davis,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+9,Isla Martin,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+9,Isla Martin,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+9,Isla Martin,3,Spinach,Vegetables,Green Valley Farm,22,0,3.14,0.7333,16,3,1
+9,Isla Martin,4,Courgettes,Vegetables,Green Valley Farm,1,196,5.0,0.0333,16,3,0
+9,Isla Martin,5,Apples,Fruit,Green Valley Farm,25,7,2.8,0.8333,16,2,1
+9,Isla Martin,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+9,Isla Martin,7,Free Range Eggs,Dairy,Bristol Dairy Co,9,126,3.22,0.3,16,1,0
+9,Isla Martin,8,Whole Milk,Dairy,Bristol Dairy Co,2,63,3.5,0.0667,16,1,0
+9,Isla Martin,9,Cheddar Cheese,Dairy,Bristol Dairy Co,1,0,4.0,0.0333,16,1,0
+9,Isla Martin,10,Natural Yoghurt,Dairy,Bristol Dairy Co,1,70,1.0,0.0333,16,1,0
+9,Isla Martin,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,27,0,3.15,0.9,16,0,1
+9,Isla Martin,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,259,5.0,0.0333,16,0,0
+9,Isla Martin,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+10,Jack Thompson,1,Carrots,Vegetables,Green Valley Farm,13,0,3.0,0.5,16,3,0
+10,Jack Thompson,2,Potatoes,Vegetables,Green Valley Farm,23,0,3.04,0.8846,16,3,1
+10,Jack Thompson,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+10,Jack Thompson,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,1
+10,Jack Thompson,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+10,Jack Thompson,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+10,Jack Thompson,7,Free Range Eggs,Dairy,Bristol Dairy Co,1,49,1.0,0.0385,16,1,0
+10,Jack Thompson,8,Whole Milk,Dairy,Bristol Dairy Co,19,0,3.11,0.7308,16,1,1
+10,Jack Thompson,9,Cheddar Cheese,Dairy,Bristol Dairy Co,1,112,2.0,0.0385,16,1,0
+10,Jack Thompson,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+10,Jack Thompson,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,1,42,4.0,0.0385,16,0,0
+10,Jack Thompson,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,91,3.0,0.0385,16,0,0
+10,Jack Thompson,13,Croissants,Bakery,Artisan Bakery Bristol,22,0,3.0,0.8462,16,0,1
+11,Karen Harris,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+11,Karen Harris,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+11,Karen Harris,3,Spinach,Vegetables,Green Valley Farm,1,91,5.0,0.04,16,3,0
+11,Karen Harris,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+11,Karen Harris,5,Apples,Fruit,Green Valley Farm,9,0,3.22,0.36,16,2,0
+11,Karen Harris,6,Strawberries,Fruit,Green Valley Farm,22,0,3.05,0.88,16,2,1
+11,Karen Harris,7,Free Range Eggs,Dairy,Bristol Dairy Co,1,42,2.0,0.04,16,1,0
+11,Karen Harris,8,Whole Milk,Dairy,Bristol Dairy Co,1,84,3.0,0.04,16,1,0
+11,Karen Harris,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+11,Karen Harris,10,Natural Yoghurt,Dairy,Bristol Dairy Co,22,0,3.14,0.88,16,1,1
+11,Karen Harris,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,1,105,2.0,0.04,16,0,0
+11,Karen Harris,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,10,133,3.8,0.4,16,0,0
+11,Karen Harris,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+12,Liam Roberts,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+12,Liam Roberts,2,Potatoes,Vegetables,Green Valley Farm,2,112,3.5,0.0625,16,3,0
+12,Liam Roberts,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+12,Liam Roberts,4,Courgettes,Vegetables,Green Valley Farm,17,98,3.06,0.5312,16,3,1
+12,Liam Roberts,5,Apples,Fruit,Green Valley Farm,1,231,2.0,0.0312,16,2,0
+12,Liam Roberts,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+12,Liam Roberts,7,Free Range Eggs,Dairy,Bristol Dairy Co,25,21,2.92,0.7812,16,1,1
+12,Liam Roberts,8,Whole Milk,Dairy,Bristol Dairy Co,1,210,1.0,0.0312,16,1,0
+12,Liam Roberts,9,Cheddar Cheese,Dairy,Bristol Dairy Co,26,28,2.81,0.8125,16,1,1
+12,Liam Roberts,10,Natural Yoghurt,Dairy,Bristol Dairy Co,1,161,1.0,0.0312,16,1,0
+12,Liam Roberts,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,26,21,3.12,0.8125,16,0,1
+12,Liam Roberts,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,28,5.0,0.0312,16,0,1
+12,Liam Roberts,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+13,Mia Lewis,1,Carrots,Vegetables,Green Valley Farm,31,0,2.94,0.8857,16,3,1
+13,Mia Lewis,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+13,Mia Lewis,3,Spinach,Vegetables,Green Valley Farm,30,7,3.03,0.8571,16,3,1
+13,Mia Lewis,4,Courgettes,Vegetables,Green Valley Farm,1,14,1.0,0.0286,16,3,0
+13,Mia Lewis,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+13,Mia Lewis,6,Strawberries,Fruit,Green Valley Farm,1,259,2.0,0.0286,16,2,0
+13,Mia Lewis,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+13,Mia Lewis,8,Whole Milk,Dairy,Bristol Dairy Co,23,0,3.17,0.6571,16,1,1
+13,Mia Lewis,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+13,Mia Lewis,10,Natural Yoghurt,Dairy,Bristol Dairy Co,1,28,4.0,0.0286,16,1,0
+13,Mia Lewis,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+13,Mia Lewis,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,2,0,4.0,0.0571,16,0,0
+13,Mia Lewis,13,Croissants,Bakery,Artisan Bakery Bristol,21,35,2.48,0.6,16,0,0
+14,Noah Walker,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+14,Noah Walker,2,Potatoes,Vegetables,Green Valley Farm,24,0,2.62,0.8889,16,3,1
+14,Noah Walker,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+14,Noah Walker,4,Courgettes,Vegetables,Green Valley Farm,1,70,2.0,0.037,16,3,0
+14,Noah Walker,5,Apples,Fruit,Green Valley Farm,23,0,2.78,0.8519,16,2,1
+14,Noah Walker,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+14,Noah Walker,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,1
+14,Noah Walker,8,Whole Milk,Dairy,Bristol Dairy Co,1,42,3.0,0.037,16,1,1
+14,Noah Walker,9,Cheddar Cheese,Dairy,Bristol Dairy Co,8,147,2.75,0.2963,16,1,0
+14,Noah Walker,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+14,Noah Walker,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,1,252,5.0,0.037,16,0,0
+14,Noah Walker,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,13,140,3.15,0.4815,16,0,0
+14,Noah Walker,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+15,Olivia Hall,1,Carrots,Vegetables,Green Valley Farm,1,91,1.0,0.0333,16,3,0
+15,Olivia Hall,2,Potatoes,Vegetables,Green Valley Farm,2,63,3.0,0.0667,16,3,0
+15,Olivia Hall,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+15,Olivia Hall,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+15,Olivia Hall,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+15,Olivia Hall,6,Strawberries,Fruit,Green Valley Farm,13,119,2.62,0.4333,16,2,0
+15,Olivia Hall,7,Free Range Eggs,Dairy,Bristol Dairy Co,24,0,2.88,0.8,16,1,1
+15,Olivia Hall,8,Whole Milk,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,1
+15,Olivia Hall,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+15,Olivia Hall,10,Natural Yoghurt,Dairy,Bristol Dairy Co,25,0,2.92,0.8333,16,1,1
+15,Olivia Hall,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,25,0,2.92,0.8333,16,0,1
+15,Olivia Hall,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,42,4.0,0.0333,16,0,0
+15,Olivia Hall,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+16,Peter Allen,1,Carrots,Vegetables,Green Valley Farm,24,0,2.92,0.75,16,3,1
+16,Peter Allen,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+16,Peter Allen,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+16,Peter Allen,4,Courgettes,Vegetables,Green Valley Farm,14,105,2.93,0.4375,16,3,0
+16,Peter Allen,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+16,Peter Allen,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,1
+16,Peter Allen,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,1
+16,Peter Allen,8,Whole Milk,Dairy,Bristol Dairy Co,27,0,3.07,0.8438,16,1,1
+16,Peter Allen,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+16,Peter Allen,10,Natural Yoghurt,Dairy,Bristol Dairy Co,1,42,1.0,0.0312,16,1,0
+16,Peter Allen,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,2,189,4.5,0.0625,16,0,0
+16,Peter Allen,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,16,70,3.0,0.5,16,0,0
+16,Peter Allen,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,1
+17,Quinn Young,1,Carrots,Vegetables,Green Valley Farm,1,154,2.0,0.0323,16,3,0
+17,Quinn Young,2,Potatoes,Vegetables,Green Valley Farm,1,168,1.0,0.0323,16,3,0
+17,Quinn Young,3,Spinach,Vegetables,Green Valley Farm,16,133,3.31,0.5161,16,3,1
+17,Quinn Young,4,Courgettes,Vegetables,Green Valley Farm,1,56,3.0,0.0323,16,3,0
+17,Quinn Young,5,Apples,Fruit,Green Valley Farm,24,7,3.29,0.7742,16,2,1
+17,Quinn Young,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+17,Quinn Young,7,Free Range Eggs,Dairy,Bristol Dairy Co,1,161,1.0,0.0323,16,1,0
+17,Quinn Young,8,Whole Milk,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+17,Quinn Young,9,Cheddar Cheese,Dairy,Bristol Dairy Co,26,7,3.0,0.8387,16,1,1
+17,Quinn Young,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+17,Quinn Young,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+17,Quinn Young,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+17,Quinn Young,13,Croissants,Bakery,Artisan Bakery Bristol,14,140,2.93,0.4516,16,0,0
+18,Rachel King,1,Carrots,Vegetables,Green Valley Farm,23,0,3.48,0.7419,16,3,1
+18,Rachel King,2,Potatoes,Vegetables,Green Valley Farm,26,0,3.23,0.8387,16,3,1
+18,Rachel King,3,Spinach,Vegetables,Green Valley Farm,1,35,5.0,0.0323,16,3,0
+18,Rachel King,4,Courgettes,Vegetables,Green Valley Farm,1,63,5.0,0.0323,16,3,0
+18,Rachel King,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+18,Rachel King,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+18,Rachel King,7,Free Range Eggs,Dairy,Bristol Dairy Co,26,0,3.46,0.8387,16,1,1
+18,Rachel King,8,Whole Milk,Dairy,Bristol Dairy Co,1,273,2.0,0.0323,16,1,0
+18,Rachel King,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+18,Rachel King,10,Natural Yoghurt,Dairy,Bristol Dairy Co,11,77,3.55,0.3548,16,1,0
+18,Rachel King,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+18,Rachel King,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,84,1.0,0.0323,16,0,0
+18,Rachel King,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+19,Sam Wright,1,Carrots,Vegetables,Green Valley Farm,1,189,3.0,0.0294,16,3,0
+19,Sam Wright,2,Potatoes,Vegetables,Green Valley Farm,1,182,1.0,0.0294,16,3,0
+19,Sam Wright,3,Spinach,Vegetables,Green Valley Farm,1,21,4.0,0.0294,16,3,0
+19,Sam Wright,4,Courgettes,Vegetables,Green Valley Farm,25,0,2.96,0.7353,16,3,1
+19,Sam Wright,5,Apples,Fruit,Green Valley Farm,1,112,2.0,0.0294,16,2,0
+19,Sam Wright,6,Strawberries,Fruit,Green Valley Farm,18,77,2.89,0.5294,16,2,0
+19,Sam Wright,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+19,Sam Wright,8,Whole Milk,Dairy,Bristol Dairy Co,30,7,2.77,0.8824,16,1,1
+19,Sam Wright,9,Cheddar Cheese,Dairy,Bristol Dairy Co,2,42,3.5,0.0588,16,1,0
+19,Sam Wright,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+19,Sam Wright,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,24,0,3.38,0.7059,16,0,1
+19,Sam Wright,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,217,2.0,0.0294,16,0,0
+19,Sam Wright,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+20,Tara Scott,1,Carrots,Vegetables,Green Valley Farm,1,168,3.0,0.0323,16,3,0
+20,Tara Scott,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+20,Tara Scott,3,Spinach,Vegetables,Green Valley Farm,22,0,2.95,0.7097,16,3,1
+20,Tara Scott,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+20,Tara Scott,5,Apples,Fruit,Green Valley Farm,27,0,2.89,0.871,16,2,1
+20,Tara Scott,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+20,Tara Scott,7,Free Range Eggs,Dairy,Bristol Dairy Co,1,196,4.0,0.0323,16,1,0
+20,Tara Scott,8,Whole Milk,Dairy,Bristol Dairy Co,1,28,4.0,0.0323,16,1,0
+20,Tara Scott,9,Cheddar Cheese,Dairy,Bristol Dairy Co,14,140,2.64,0.4516,16,1,0
+20,Tara Scott,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+20,Tara Scott,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+20,Tara Scott,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,27,7,3.37,0.871,16,0,1
+20,Tara Scott,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+21,Uma Green,1,Carrots,Vegetables,Green Valley Farm,26,0,3.12,0.8667,16,3,1
+21,Uma Green,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,1
+21,Uma Green,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+21,Uma Green,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+21,Uma Green,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,1
+21,Uma Green,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,1
+21,Uma Green,7,Free Range Eggs,Dairy,Bristol Dairy Co,12,119,3.0,0.4,16,1,1
+21,Uma Green,8,Whole Milk,Dairy,Bristol Dairy Co,1,0,3.0,0.0333,16,1,0
+21,Uma Green,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+21,Uma Green,10,Natural Yoghurt,Dairy,Bristol Dairy Co,11,119,2.36,0.3667,16,1,0
+21,Uma Green,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+21,Uma Green,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,112,5.0,0.0333,16,0,0
+21,Uma Green,13,Croissants,Bakery,Artisan Bakery Bristol,27,0,3.3,0.9,16,0,1
+22,Victor Adams,1,Carrots,Vegetables,Green Valley Farm,2,98,3.0,0.0667,16,3,1
+22,Victor Adams,2,Potatoes,Vegetables,Green Valley Farm,24,7,3.42,0.8,16,3,1
+22,Victor Adams,3,Spinach,Vegetables,Green Valley Farm,25,7,3.32,0.8333,16,3,1
+22,Victor Adams,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+22,Victor Adams,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+22,Victor Adams,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,1
+22,Victor Adams,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+22,Victor Adams,8,Whole Milk,Dairy,Bristol Dairy Co,23,7,2.61,0.7667,16,1,1
+22,Victor Adams,9,Cheddar Cheese,Dairy,Bristol Dairy Co,1,182,3.0,0.0333,16,1,0
+22,Victor Adams,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,1
+22,Victor Adams,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,18,35,3.17,0.6,16,0,0
+22,Victor Adams,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+22,Victor Adams,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+23,Wendy Baker,1,Carrots,Vegetables,Green Valley Farm,23,0,3.09,0.7667,16,3,1
+23,Wendy Baker,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+23,Wendy Baker,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+23,Wendy Baker,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+23,Wendy Baker,5,Apples,Fruit,Green Valley Farm,24,0,2.83,0.8,16,2,1
+23,Wendy Baker,6,Strawberries,Fruit,Green Valley Farm,12,147,2.42,0.4,16,2,0
+23,Wendy Baker,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+23,Wendy Baker,8,Whole Milk,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+23,Wendy Baker,9,Cheddar Cheese,Dairy,Bristol Dairy Co,23,0,2.74,0.7667,16,1,1
+23,Wendy Baker,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+23,Wendy Baker,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+23,Wendy Baker,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,0,3.0,0.0333,16,0,0
+23,Wendy Baker,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+24,Xavier Clark,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+24,Xavier Clark,2,Potatoes,Vegetables,Green Valley Farm,1,182,5.0,0.0385,16,3,0
+24,Xavier Clark,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+24,Xavier Clark,4,Courgettes,Vegetables,Green Valley Farm,17,84,2.47,0.6538,16,3,0
+24,Xavier Clark,5,Apples,Fruit,Green Valley Farm,1,119,3.0,0.0385,16,2,0
+24,Xavier Clark,6,Strawberries,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+24,Xavier Clark,7,Free Range Eggs,Dairy,Bristol Dairy Co,15,84,3.0,0.5769,16,1,0
+24,Xavier Clark,8,Whole Milk,Dairy,Bristol Dairy Co,23,0,3.3,0.8846,16,1,1
+24,Xavier Clark,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+24,Xavier Clark,10,Natural Yoghurt,Dairy,Bristol Dairy Co,1,133,1.0,0.0385,16,1,0
+24,Xavier Clark,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+24,Xavier Clark,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,20,0,3.5,0.7692,16,0,1
+24,Xavier Clark,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+25,Yasmin Evans,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+25,Yasmin Evans,2,Potatoes,Vegetables,Green Valley Farm,18,112,3.83,0.5625,16,3,0
+25,Yasmin Evans,3,Spinach,Vegetables,Green Valley Farm,1,7,1.0,0.0312,16,3,1
+25,Yasmin Evans,4,Courgettes,Vegetables,Green Valley Farm,1,245,4.0,0.0312,16,3,0
+25,Yasmin Evans,5,Apples,Fruit,Green Valley Farm,28,0,3.18,0.875,16,2,1
+25,Yasmin Evans,6,Strawberries,Fruit,Green Valley Farm,1,42,3.0,0.0312,16,2,1
+25,Yasmin Evans,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+25,Yasmin Evans,8,Whole Milk,Dairy,Bristol Dairy Co,1,175,4.0,0.0312,16,1,0
+25,Yasmin Evans,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+25,Yasmin Evans,10,Natural Yoghurt,Dairy,Bristol Dairy Co,28,0,3.32,0.875,16,1,1
+25,Yasmin Evans,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,18,70,3.11,0.5625,16,0,0
+25,Yasmin Evans,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+25,Yasmin Evans,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+26,Zoe Foster,1,Carrots,Vegetables,Green Valley Farm,31,0,3.19,0.8158,16,3,1
+26,Zoe Foster,2,Potatoes,Vegetables,Green Valley Farm,1,14,2.0,0.0263,16,3,1
+26,Zoe Foster,3,Spinach,Vegetables,Green Valley Farm,25,49,3.2,0.6579,16,3,0
+26,Zoe Foster,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+26,Zoe Foster,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+26,Zoe Foster,6,Strawberries,Fruit,Green Valley Farm,1,238,1.0,0.0263,16,2,0
+26,Zoe Foster,7,Free Range Eggs,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,1
+26,Zoe Foster,8,Whole Milk,Dairy,Bristol Dairy Co,1,56,1.0,0.0263,16,1,1
+26,Zoe Foster,9,Cheddar Cheese,Dairy,Bristol Dairy Co,24,56,2.92,0.6316,16,1,0
+26,Zoe Foster,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+26,Zoe Foster,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,1,273,1.0,0.0263,16,0,0
+26,Zoe Foster,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+26,Zoe Foster,13,Croissants,Bakery,Artisan Bakery Bristol,31,0,3.06,0.8158,16,0,1
+27,Aaron Hughes,1,Carrots,Vegetables,Green Valley Farm,1,0,4.0,0.037,16,3,0
+27,Aaron Hughes,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+27,Aaron Hughes,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+27,Aaron Hughes,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+27,Aaron Hughes,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+27,Aaron Hughes,6,Strawberries,Fruit,Green Valley Farm,23,0,2.87,0.8519,16,2,1
+27,Aaron Hughes,7,Free Range Eggs,Dairy,Bristol Dairy Co,13,112,2.85,0.4815,16,1,0
+27,Aaron Hughes,8,Whole Milk,Dairy,Bristol Dairy Co,22,0,2.64,0.8148,16,1,1
+27,Aaron Hughes,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+27,Aaron Hughes,10,Natural Yoghurt,Dairy,Bristol Dairy Co,1,259,2.0,0.037,16,1,0
+27,Aaron Hughes,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+27,Aaron Hughes,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,20,0,3.1,0.7407,16,0,1
+27,Aaron Hughes,13,Croissants,Bakery,Artisan Bakery Bristol,1,70,2.0,0.037,16,0,0
+28,Bella Price,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+28,Bella Price,2,Potatoes,Vegetables,Green Valley Farm,2,154,1.5,0.0741,16,3,0
+28,Bella Price,3,Spinach,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+28,Bella Price,4,Courgettes,Vegetables,Green Valley Farm,21,7,2.76,0.7778,16,3,1
+28,Bella Price,5,Apples,Fruit,Green Valley Farm,20,7,2.8,0.7407,16,2,1
+28,Bella Price,6,Strawberries,Fruit,Green Valley Farm,1,42,5.0,0.037,16,2,0
+28,Bella Price,7,Free Range Eggs,Dairy,Bristol Dairy Co,1,196,4.0,0.037,16,1,0
+28,Bella Price,8,Whole Milk,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+28,Bella Price,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+28,Bella Price,10,Natural Yoghurt,Dairy,Bristol Dairy Co,17,35,3.06,0.6296,16,1,0
+28,Bella Price,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,19,42,3.53,0.7037,16,0,0
+28,Bella Price,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,1,56,3.0,0.037,16,0,0
+28,Bella Price,13,Croissants,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+29,Callum Reed,1,Carrots,Vegetables,Green Valley Farm,23,0,2.91,0.7931,16,3,1
+29,Callum Reed,2,Potatoes,Vegetables,Green Valley Farm,16,70,3.06,0.5517,16,3,0
+29,Callum Reed,3,Spinach,Vegetables,Green Valley Farm,1,112,4.0,0.0345,16,3,0
+29,Callum Reed,4,Courgettes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+29,Callum Reed,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,1
+29,Callum Reed,6,Strawberries,Fruit,Green Valley Farm,1,7,4.0,0.0345,16,2,0
+29,Callum Reed,7,Free Range Eggs,Dairy,Bristol Dairy Co,1,231,1.0,0.0345,16,1,1
+29,Callum Reed,8,Whole Milk,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+29,Callum Reed,9,Cheddar Cheese,Dairy,Bristol Dairy Co,17,70,3.06,0.5862,16,1,0
+29,Callum Reed,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,1
+29,Callum Reed,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+29,Callum Reed,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+29,Callum Reed,13,Croissants,Bakery,Artisan Bakery Bristol,21,0,3.1,0.7241,16,0,1
+30,Diana Shaw,1,Carrots,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+30,Diana Shaw,2,Potatoes,Vegetables,Green Valley Farm,0,280,0.0,0.0,16,3,0
+30,Diana Shaw,3,Spinach,Vegetables,Green Valley Farm,18,49,2.83,0.6667,16,3,0
+30,Diana Shaw,4,Courgettes,Vegetables,Green Valley Farm,1,91,3.0,0.037,16,3,0
+30,Diana Shaw,5,Apples,Fruit,Green Valley Farm,0,280,0.0,0.0,16,2,0
+30,Diana Shaw,6,Strawberries,Fruit,Green Valley Farm,21,0,2.81,0.7778,16,2,1
+30,Diana Shaw,7,Free Range Eggs,Dairy,Bristol Dairy Co,17,70,3.0,0.6296,16,1,1
+30,Diana Shaw,8,Whole Milk,Dairy,Bristol Dairy Co,25,0,2.68,0.9259,16,1,1
+30,Diana Shaw,9,Cheddar Cheese,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+30,Diana Shaw,10,Natural Yoghurt,Dairy,Bristol Dairy Co,0,280,0.0,0.0,16,1,0
+30,Diana Shaw,11,Sourdough Loaf,Bakery,Artisan Bakery Bristol,2,49,2.5,0.0741,16,0,0
+30,Diana Shaw,12,Wholemeal Bread,Bakery,Artisan Bakery Bristol,0,280,0.0,0.0,16,0,0
+30,Diana Shaw,13,Croissants,Bakery,Artisan Bakery Bristol,2,0,2.5,0.0741,16,0,0

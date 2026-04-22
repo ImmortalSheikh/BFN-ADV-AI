@@ -3,7 +3,7 @@
   "accuracy": 87.18,
   "cv_accuracy_mean": 87.18,
   "cv_accuracy_std": 4.05,
-  "trained_on": "2026-03-09",
+  "trained_on": "2026-04-19",
   "train_samples": 312,
   "test_samples": 78,
   "feature_names": [

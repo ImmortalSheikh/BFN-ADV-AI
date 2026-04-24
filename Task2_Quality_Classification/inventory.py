@@ -1,3 +1,10 @@
+"""
+inventory.py
+Automated inventory management system for the Bristol Regional Food Network.
+Runs batch inspections on produce images, grades each item using the
+quality classification model, and updates the inventory JSON file.
+"""
+
 import json
 import os
 from datetime import datetime
@@ -8,6 +15,13 @@ INVENTORY_FILE = "inventory.json"
 
 
 def load_inventory():
+    """
+    Load the current inventory from the JSON file.
+
+    Returns:
+        dict: Inventory data keyed by produce name,
+              or empty dict if the file does not exist.
+    """
     if os.path.exists(INVENTORY_FILE):
         with open(INVENTORY_FILE, 'r') as f:
             return json.load(f)
@@ -15,16 +29,28 @@ def load_inventory():
 
 
 def save_inventory(inventory):
+    """
+    Save the inventory dictionary to the JSON file.
+
+    Args:
+        inventory (dict): Inventory data to persist.
+    """
     with open(INVENTORY_FILE, 'w') as f:
         json.dump(inventory, f, indent=4)
 
 
 def update_inventory(result):
     """
-    Automatically updates inventory based on grading result.
-    - Grade A: added to stock at full price
-    - Grade B: added with discount applied
-    - Grade C: flagged for removal or heavy discount
+    Update inventory counts based on a single grading result.
+    Grade A items are stocked at full price, Grade B with discount,
+    and Grade C items are flagged for removal or heavy discount.
+
+    Args:
+        result (dict): Grading result from predict_image containing
+                       produce, condition, grade and other fields.
+
+    Returns:
+        dict: Updated inventory dictionary.
     """
     inventory = load_inventory()
     produce = result['produce']
@@ -48,6 +74,10 @@ def update_inventory(result):
 
 
 def print_inventory_summary():
+    """
+    Print a formatted summary table of the current inventory,
+    showing Grade A, B, C counts and total inspected per produce type.
+    """
     inventory = load_inventory()
     if not inventory:
         print("Inventory is empty.")
@@ -67,8 +97,15 @@ def print_inventory_summary():
 
 def run_batch_inspection(image_dir, model, class_names, device, limit=10):
     """
-    Runs grading on a folder of images and updates inventory automatically.
-    Simulates real-world batch inspection of produce.
+    Run grading on all images in a folder and update inventory automatically.
+    Simulates a real-world batch inspection of incoming produce.
+
+    Args:
+        image_dir (str): Path to folder containing produce images.
+        model (torch.nn.Module): Trained quality classification model.
+        class_names (list): List of class name strings.
+        device (torch.device): Device to run inference on.
+        limit (int): Maximum number of images to inspect. Defaults to 10.
     """
     print(f"\n🔍 Starting batch inspection of: {image_dir}\n")
     images = [f for f in os.listdir(image_dir)
@@ -93,7 +130,7 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model, class_names = load_trained_model(device)
 
-    # Run batch inspection on a sample folder
+    # Run batch inspection on sample folders
     sample_dirs = [
         os.path.join("dataset", "Fruit And Vegetable Diseases Dataset", "Apple__Healthy"),
         os.path.join("dataset", "Fruit And Vegetable Diseases Dataset", "Apple__Rotten"),

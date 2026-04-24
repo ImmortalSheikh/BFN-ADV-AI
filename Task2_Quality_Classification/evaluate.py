@@ -1,3 +1,10 @@
+"""
+evaluate.py
+Evaluation pipeline for the ResNet50 quality classification model.
+Computes accuracy, precision, recall, F1 score and generates
+confusion matrix, per-class accuracy and grade distribution charts.
+"""
+
 import os
 import torch
 import numpy as np
@@ -16,6 +23,16 @@ os.makedirs(RESULTS_DIR, exist_ok=True)
 
 
 def load_trained_model(device):
+    """
+    Load the trained ResNet50 model from the model registry.
+
+    Args:
+        device (torch.device): Device to load the model onto.
+
+    Returns:
+        tuple: (model, class_names) where model is the loaded ResNet50
+               and class_names is the list of 28 class label strings.
+    """
     checkpoint = torch.load(SAVE_PATH, map_location=device)
     class_names = checkpoint['class_names']
     num_classes = checkpoint['num_classes']
@@ -26,6 +43,17 @@ def load_trained_model(device):
 
 
 def get_predictions(model, loader, device):
+    """
+    Run inference on the test set and collect all predictions.
+
+    Args:
+        model (torch.nn.Module): Trained model.
+        loader (DataLoader): Test data loader.
+        device (torch.device): Device to run inference on.
+
+    Returns:
+        tuple: (labels, predictions) as numpy arrays of integer class indices.
+    """
     all_preds = []
     all_labels = []
 
@@ -41,6 +69,14 @@ def get_predictions(model, loader, device):
 
 
 def plot_confusion_matrix(labels, preds, class_names):
+    """
+    Generate and save full 28-class and binary (Healthy/Rotten) confusion matrices.
+
+    Args:
+        labels (np.array): True class indices.
+        preds (np.array): Predicted class indices.
+        class_names (list): List of class name strings.
+    """
     cm = confusion_matrix(labels, preds)
 
     # Full confusion matrix
@@ -58,9 +94,9 @@ def plot_confusion_matrix(labels, preds, class_names):
     plt.close()
     print("✅ Confusion matrix saved!")
 
-    # Healthy vs Rotten binary confusion matrix
+    # Binary healthy vs rotten confusion matrix
     binary_labels = [1 if class_names[l].endswith("Healthy") else 0 for l in labels]
-    binary_preds  = [1 if class_names[p].endswith("Healthy") else 0 for p in preds]
+    binary_preds = [1 if class_names[p].endswith("Healthy") else 0 for p in preds]
     binary_cm = confusion_matrix(binary_labels, binary_preds)
 
     plt.figure(figsize=(6, 5))
@@ -77,6 +113,14 @@ def plot_confusion_matrix(labels, preds, class_names):
 
 
 def plot_per_class_accuracy(labels, preds, class_names):
+    """
+    Generate and save a per-class accuracy bar chart.
+
+    Args:
+        labels (np.array): True class indices.
+        preds (np.array): Predicted class indices.
+        class_names (list): List of class name strings.
+    """
     cm = confusion_matrix(labels, preds)
     per_class_acc = cm.diagonal() / cm.sum(axis=1) * 100
 
@@ -97,9 +141,16 @@ def plot_per_class_accuracy(labels, preds, class_names):
 
 
 def plot_grade_distribution(labels, preds, class_names):
-    """Show how many items fall into Grade A, B, C based on predictions."""
+    """
+    Generate and save a grade distribution bar chart showing how many
+    test set items fall into Grade A, B, and C categories.
+
+    Args:
+        labels (np.array): True class indices (unused, kept for consistency).
+        preds (np.array): Predicted class indices.
+        class_names (list): List of class name strings.
+    """
     from grading import simulate_quality_scores, assign_grade
-    import torch.nn.functional as F
 
     grades = {"A": 0, "B": 0, "C": 0}
     for pred in preds:
@@ -126,6 +177,11 @@ def plot_grade_distribution(labels, preds, class_names):
 
 
 def evaluate():
+    """
+    Run the full evaluation pipeline on the test set.
+    Computes accuracy, precision, recall and F1 score, saves metrics
+    to a text file, and generates all evaluation charts.
+    """
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     _, val_loader, test_loader, class_names, num_classes = load_data()
     model, class_names = load_trained_model(device)
